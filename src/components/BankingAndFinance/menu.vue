@@ -1,19 +1,22 @@
 <template>
   <div>
-    <div class="homepage mdl-layout mdl-js-layout has-drawer is-upgraded">
+    <div class="bankingandfinance mdl-layout mdl-js-layout has-drawer is-upgraded">
       <main class="mdl-layout__content">
 
-        <div class="homepage__posts mdl-grid">
-          <!-- <router-link to="BankingAndFinance"> -->
+        <div class="bankingandfinance__posts mdl-grid">
+
             <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+
             <div class="mdl-card__media mdl-color-text--grey-50">
               <h3>JIIC</h3>
             </div>
+
             <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
               <div>
                 <span>What Do we have to tell potential customers?</span>
               </div>
             </div>
+
             <div class="mdl-card__actions mdl-card--border">
               <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
                 View Offers
@@ -21,10 +24,9 @@
               <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
                 Visit Website
               </a>
+            </div>
           </div>
-          <!-- </router-link> -->
 
-          <!-- <router-link to="BookStore"> -->
             <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
               <div class="mdl-card__media mdl-color-text--grey-50">
                 <h3>Paymaster (Jamaica) Limited</h3>
@@ -41,8 +43,8 @@
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
                   Visit Website
                 </a>
+              </div>
             </div>
-          <!-- </router-link> -->
 
             <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
               <div class="mdl-card__media mdl-color-text--grey-50">
@@ -60,6 +62,7 @@
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
                   Visit Website
                 </a>
+              </div>
             </div>
 
         </div>
@@ -117,16 +120,16 @@ body::before {
     background-image: url('../../images/bg_2880.jpg');
   }
 }
-body .homepage {
+body .bankingandfinance {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
-.homepage .mdl-layout .mdl-layout__content {
+.bankingandfinance .mdl-layout .mdl-layout__content {
   padding-top: 230px;
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
-.homepage .mdl-card {
+.bankingandfinance .mdl-card {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -138,13 +141,13 @@ body .homepage {
           align-items: stretch;
   min-height: 360px;
 }
-.homepage .mdl-card__title {
+.bankingandfinance .mdl-card__title {
   padding: 16px;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-.homepage .mdl-card__media {
+.bankingandfinance .mdl-card__media {
   box-sizing: border-box;
   background-size: cover;
   padding: 24px;
@@ -162,11 +165,11 @@ body .homepage {
           align-items: flex-end;
   cursor: pointer;
 }
-.homepage .mdl-card__media a,
-.homepage .mdl-card__title a {
+.bankingandfinance .mdl-card__media a,
+.bankingandfinance .mdl-card__title a {
   color: inherit;
 }
-.homepage .mdl-card__supporting-text {
+.bankingandfinance .mdl-card__supporting-text {
   width: 100%;
   padding: 16px;
   min-height: 64px;
@@ -177,23 +180,23 @@ body .homepage {
       -ms-flex-align: center;
           align-items: center;
 }
-.homepage .mdl-card__supporting-text strong {
+.bankingandfinance .mdl-card__supporting-text strong {
   font-weight: 400;
 }
-.homepage .mdl-card__media ~ .mdl-card__supporting-text {
+.bankingandfinance .mdl-card__media ~ .mdl-card__supporting-text {
   min-height: 64px;
 }
-.homepage .mdl-card__supporting-text:not(:last-child) {
+.bankingandfinance .mdl-card__supporting-text:not(:last-child) {
   box-sizing: border-box;
   min-height: 76px;
 }
-.homepage:not(.homepage--blogpost) .mdl-card__supporting-text ~ .mdl-card__supporting-text {
+.bankingandfinance:not(.bankingandfinance--blogpost) .mdl-card__supporting-text ~ .mdl-card__supporting-text {
   border-top: 1px solid rgba(0,0,0,0.1);
 }
-.homepage .mdl-card__actions:first-child {
+.bankingandfinance .mdl-card__actions:first-child {
   margin-left: 0;
 }
-.homepage .meta {
+.bankingandfinance .meta {
   box-sizing: border-box;
   padding: 16px;
   display: -webkit-flex;
@@ -210,7 +213,7 @@ body .homepage {
           justify-content: flex-start;
   height: auto;
 }
-.homepage .meta > .meta__favorites{
+.bankingandfinance .meta > .meta__favorites{
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
@@ -218,20 +221,20 @@ body .homepage {
   font-size: 13px;
   font-weight: 500;
 }
-.homepage .meta > .meta__favorites .material-icons {
+.bankingandfinance .meta > .meta__favorites .material-icons {
   font-size: 2em;
   cursor: pointer;
   margin-left: 12px;
 }
-.homepage .mdl-card .meta.meta--fill {
+.bankingandfinance .mdl-card .meta.meta--fill {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.homepage .meta > *:first-child {
+.bankingandfinance .meta > *:first-child {
   margin-right: 16px;
 }
-.homepage .meta > * {
+.bankingandfinance .meta > * {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -239,10 +242,10 @@ body .homepage {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.homepage .coffee-pic .mdl-card__media {
+.bankingandfinance .coffee-pic .mdl-card__media {
   background-image: url('../../images/coffee.jpg');
 }
-.homepage .something-else .mdl-card__media {
+.bankingandfinance .something-else .mdl-card__media {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -256,66 +259,66 @@ body .homepage {
       -ms-flex-align: center;
           align-items: center;
 }
-.homepage .something-else > button {
+.bankingandfinance .something-else > button {
   position: absolute;
   top: 0;
   right: 28px;
   -webkit-transform: translate(0px, -28px);
           transform: translate(0px, -28px);
 }
-.homepage .something-else .mdl-card__media {
+.bankingandfinance .something-else .mdl-card__media {
   font-size: 13px;
   font-weight: 500;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
-.homepage .something-else .mdl-card__media img {
+.bankingandfinance .something-else .mdl-card__media img {
   width: 64px;
   height: 64px;
   margin-bottom: 10px;
 }
-.homepage .something-else .mdl-card__supporting-text {
+.bankingandfinance .something-else .mdl-card__supporting-text {
   background-color: #F5F5F5;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-.homepage .on-the-road-again .mdl-card__media {
+.bankingandfinance .on-the-road-again .mdl-card__media {
   background-image: url('../../images/road.jpg');
 }
-.homepage .shopping .mdl-card__media {
+.bankingandfinance .shopping .mdl-card__media {
   background-image: url('../../images/shopping.jpg');
 }
-.homepage .mdl-card > a {
+.bankingandfinance .mdl-card > a {
   color: inherit;
   text-decoration: none;
   font-weight: inherit;
 }
-.homepage .mdl-card h3 {
+.bankingandfinance .mdl-card h3 {
   margin: 0;
 }
-.homepage .mdl-card h3 a {
+.bankingandfinance .mdl-card h3 a {
   text-decoration: none;
 }
-.homepage .mdl-card h3.quote:before, .homepage .mdl-card h3.quote:after {
+.bankingandfinance .mdl-card h3.quote:before, .bankingandfinance .mdl-card h3.quote:after {
   display: block;
   font-size: 3em;
   margin-top: 0.5em;
 }
-.homepage .mdl-card h3.quote:before {
+.bankingandfinance .mdl-card h3.quote:before {
   content: '“';
 }
-.homepage .mdl-card h3.quote:after {
+.bankingandfinance .mdl-card h3.quote:after {
   content: '”';
 }
-.homepage--blogpost .custom-header {
+.bankingandfinance--blogpost .custom-header {
   background-color: transparent;
 }
-.homepage--blogpost .meta > * {
+.bankingandfinance--blogpost .meta > * {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
 }
-.homepage--blogpost .meta + .mdl-card__supporting-text {
+.bankingandfinance--blogpost .meta + .mdl-card__supporting-text {
   border: 0;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -324,29 +327,29 @@ body .homepage {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.homepage--blogpost .meta + .mdl-card__supporting-text p {
+.bankingandfinance--blogpost .meta + .mdl-card__supporting-text p {
   max-width: 512px;
   margin: 16px auto;
   font-size: 16px;
   line-height: 28px;
 }
-.homepage--blogpost .demo-back {
+.bankingandfinance--blogpost .demo-back {
   position: absolute;
   top: 16px;
   left: 16px;
   color: white;
   z-index: 9999;
 }
-.homepage .section-spacer {
+.bankingandfinance .section-spacer {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-.homepage .something-else {
+.bankingandfinance .something-else {
   overflow: visible;
   z-index: 10;
 }
-.homepage .amazing .mdl-card__title {
+.bankingandfinance .amazing .mdl-card__title {
   background-color: #263238;
 }
 
@@ -381,7 +384,7 @@ body .homepage {
   color: rgba(0, 0, 0, 0.54);
   background: transparent;
 }
-.homepage .mdl-mini-footer {
+.bankingandfinance .mdl-mini-footer {
   margin-top: 80px;
   height: 120px;
   padding: 40px;

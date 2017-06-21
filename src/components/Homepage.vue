@@ -4,19 +4,20 @@
       <main class="mdl-layout__content">
 
         <div class="homepage__posts mdl-grid">
-          <!-- <router-link to="BankingAndFinance"> -->
+
+          <router-link to="BankingAndFinance">
             <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-            <div class="mdl-card__media mdl-color-text--grey-50">
-              <h3>Banking and Finance</h3>
-            </div>
-            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-              <div>
-                <span>View all the businesses which relate to banking
-                and finance</span>
+              <div class="mdl-card__media mdl-color-text--grey-50">
+                <h3>Banking and Finance</h3>
               </div>
-            </div>
-          </div>
-          <!-- </router-link> -->
+              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+                <div>
+                  <span>View all the businesses which relate to banking
+                    and finance</span>
+                  </div>
+                </div>
+              </div>
+          </router-link>
 
           <!-- <router-link to="BookStore"> -->
             <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
