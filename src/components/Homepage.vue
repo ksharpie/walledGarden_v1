@@ -5,152 +5,131 @@
 
         <div class="homepage__posts mdl-grid">
 
-          <router-link to="BankingAndFinance">
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Banking and Finance</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>View all the businesses which relate to banking
-                    and finance</span>
-                  </div>
-                </div>
-              </div>
-          </router-link>
-
-          <!-- <router-link to="BookStore"> -->
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Book Stores</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>View all the businesses which relate to books</span>
-                </div>
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="BankingAndFinance"><h3>Banking and Finance</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>View all the businesses which relate to banking
+                  and finance</span>
               </div>
             </div>
-          <!-- </router-link> -->
+          </div>
 
-          <!-- <router-link to="Clothing"> -->
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Clothing</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>View all the businesses which relate to clothing</span>
-                </div>
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="BookStore"><h3>Book Stores</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>View all the businesses which relate to books</span>
               </div>
             </div>
-          <!-- </router-link> -->
+          </div>
 
-          <!-- <router-link to="Dining"> -->
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Dining</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>View all the businesses which relate to dining</span>
-                </div>
+
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="Clothing"><h3>Clothing</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>View all the businesses which relate to clothing</span>
               </div>
             </div>
-          <!-- </router-link> -->
+          </div>
 
-          <!-- <router-link to="ElectronicsAndPhoto"> -->
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Electronics and Photo</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>View all the businesses which relate to electronics
-                  and photos</span>
-                </div>
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="Dining"><h3>Dining</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>View all the businesses which relate to dining</span>
               </div>
             </div>
-          <!-- </router-link> -->
+          </div>
 
-          <!-- <router-link to="Entertainment"> -->
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Entertainment</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>  View all the businesses which relate to entertainment</span>
-                </div>
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="ElectronicsAndPhoto"><h3>Electronics and Photo</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>View all the businesses which relate to electronics
+                and photos</span>
               </div>
             </div>
-          <!-- </router-link> -->
+          </div>
 
-          <!-- <router-link to="FoodCourt"> -->
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Food Court</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>View all the businesses in the food court</span>
-                </div>
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="Entertainment"><h3>Entertainment</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>  View all the businesses which relate to entertainment</span>
               </div>
             </div>
-          <!-- </router-link> -->
+          </div>
 
-          <!-- <router-link to="GiftShops"> -->
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Gift Shops</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>View all the businesses which relate to gifts</span>
-                </div>
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="FoodCourt"><h3>Food Court</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>View all the businesses in the food court</span>
               </div>
             </div>
-          <!-- </router-link> -->
+          </div>
 
-          <!-- <router-link to="HomeImprovement"> -->
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Home Improvement</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>View all the businesses which relates to home improvement</span>
-                </div>
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="GiftShops"><h3>Gift Shops</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>View all the businesses which relate to gifts</span>
               </div>
             </div>
-          <!-- </router-link> -->
+          </div>
 
-          <!-- <router-link to="ToyHobbiesCraft"> -->
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Toy Hobbies Craft</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>View all the businesses which relates to toys hobbies and
-                  crafts</span>
-                </div>
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="HomeImprovement"><h3>Home Improvement</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>View all the businesses which relates to home improvement</span>
               </div>
             </div>
-          <!-- </router-link> -->
+          </div>
 
-          <!-- <router-link to="TravelAndOutdoors"> -->
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
-              <div class="mdl-card__media mdl-color-text--grey-50">
-                <h3>Travel and Outdoors</h3>
-              </div>
-              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                <div>
-                  <span>View all the businesses which relates to travel
-                  and outdoors</span>
-                </div>
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="ToyHobbiesCraft"><h3>Toy Hobbies Craft</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>View all the businesses which relates to toys hobbies and
+                crafts</span>
               </div>
             </div>
-          <!-- </router-link> -->
+          </div>
+
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <router-link to="TravelAndOutdoors"><h3>Travel and Outdoors</h3></router-link>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div>
+                <span>View all the businesses which relates to travel
+                and outdoors</span>
+              </div>
+            </div>
+          </div>
 
         </div>
 

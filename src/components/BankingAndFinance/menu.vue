@@ -5,7 +5,7 @@
 
         <div class="bankingandfinance__posts mdl-grid">
 
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
 
             <div class="mdl-card__media mdl-color-text--grey-50">
               <h3>JIIC</h3>
@@ -27,7 +27,7 @@
             </div>
           </div>
 
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
               <div class="mdl-card__media mdl-color-text--grey-50">
                 <h3>Paymaster (Jamaica) Limited</h3>
               </div>
@@ -46,7 +46,7 @@
               </div>
             </div>
 
-            <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--4-col">
               <div class="mdl-card__media mdl-color-text--grey-50">
                 <h3>Sagicor Bank</h3>
               </div>
